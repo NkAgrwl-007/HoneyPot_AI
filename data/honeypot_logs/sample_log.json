@@ -1,0 +1,20 @@
+{"eventid": "cowrie.command.input", "timestamp": "2025-04-07T13:21:33.857450+00:00", "src_ip": "192.168.1.106", "src_port": 10138, "session": "sess_3299", "input": "cat /etc/passwd"}
+{"eventid": "cowrie.command.input", "timestamp": "2025-04-07T13:22:18.857450+00:00", "src_ip": "192.168.1.100", "src_port": 57877, "session": "sess_3961", "input": "uname -a"}
+{"eventid": "cowrie.command.input", "timestamp": "2025-04-07T13:23:03.857450+00:00", "src_ip": "192.168.1.123", "src_port": 31052, "session": "sess_6959", "input": "cat /etc/passwd"}
+{"eventid": "cowrie.command.input", "timestamp": "2025-04-07T13:23:48.857450+00:00", "src_ip": "192.168.1.169", "src_port": 62574, "session": "sess_9318", "input": "ls"}
+{"eventid": "cowrie.session.connect", "timestamp": "2025-04-07T13:24:33.857450+00:00", "src_ip": "192.168.1.80", "src_port": 25522, "session": "sess_5223"}
+{"eventid": "cowrie.session.connect", "timestamp": "2025-04-07T13:25:18.857450+00:00", "src_ip": "192.168.1.48", "src_port": 37466, "session": "sess_9452"}
+{"eventid": "cowrie.login.success", "timestamp": "2025-04-07T13:26:03.857450+00:00", "src_ip": "192.168.1.109", "src_port": 19554, "session": "sess_4207", "username": "test", "password": "admin"}
+{"eventid": "cowrie.login.failed", "timestamp": "2025-04-07T13:26:48.857450+00:00", "src_ip": "192.168.1.184", "src_port": 29338, "session": "sess_1480", "username": "test", "password": "password"}
+{"eventid": "cowrie.login.success", "timestamp": "2025-04-07T13:27:33.857450+00:00", "src_ip": "192.168.1.50", "src_port": 33947, "session": "sess_9562", "username": "user", "password": "123456"}
+{"eventid": "cowrie.command.input", "timestamp": "2025-04-07T13:28:18.857450+00:00", "src_ip": "192.168.1.75", "src_port": 33001, "session": "sess_8315", "input": "ls"}
+{"eventid": "cowrie.command.input", "timestamp": "2025-04-07T13:29:03.857450+00:00", "src_ip": "192.168.1.196", "src_port": 17453, "session": "sess_9720", "input": "cat /etc/passwd"}
+{"eventid": "cowrie.login.success", "timestamp": "2025-04-07T13:29:48.857450+00:00", "src_ip": "192.168.1.107", "src_port": 25164, "session": "sess_6370", "username": "admin", "password": "password"}
+{"eventid": "cowrie.session.connect", "timestamp": "2025-04-07T13:30:33.857450+00:00", "src_ip": "192.168.1.186", "src_port": 25583, "session": "sess_7711"}
+{"eventid": "cowrie.command.input", "timestamp": "2025-04-07T13:31:18.857450+00:00", "src_ip": "192.168.1.212", "src_port": 27158, "session": "sess_5416", "input": "uname -a"}
+{"eventid": "cowrie.login.success", "timestamp": "2025-04-07T13:32:03.857450+00:00", "src_ip": "192.168.1.186", "src_port": 16186, "session": "sess_2771", "username": "test", "password": "123456"}
+{"eventid": "cowrie.login.failed", "timestamp": "2025-04-07T13:32:48.857450+00:00", "src_ip": "192.168.1.170", "src_port": 14889, "session": "sess_7752", "username": "user", "password": "password"}
+{"eventid": "cowrie.session.connect", "timestamp": "2025-04-07T13:33:33.857450+00:00", "src_ip": "192.168.1.228", "src_port": 10101, "session": "sess_3352"}
+{"eventid": "cowrie.login.success", "timestamp": "2025-04-07T13:34:18.857450+00:00", "src_ip": "192.168.1.8", "src_port": 42686, "session": "sess_2030", "username": "admin", "password": "123456"}
+{"eventid": "cowrie.command.input", "timestamp": "2025-04-07T13:35:03.857450+00:00", "src_ip": "192.168.1.145", "src_port": 16610, "session": "sess_5831", "input": "ls"}
+{"eventid": "cowrie.login.success", "timestamp": "2025-04-07T13:35:48.857450+00:00", "src_ip": "192.168.1.82", "src_port": 18971, "session": "sess_3411", "username": "user", "password": "123456"}

@@ -1,0 +1,36 @@
+version: '3'
+services:
+  mysql:
+    image: mysql:latest
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpass
+      MYSQL_DATABASE: honeypot_logs
+      MYSQL_USER: honeypot
+      MYSQL_PASSWORD: securepass
+    volumes:
+      - ./data/mysql:/var/lib/mysql
+    ports:
+      - "3306:3306"
+
+  cowrie:
+    image: cowrie/cowrie
+    restart: always
+    volumes:
+      - ./config/cowrie.cfg:/cowrie/etc/cowrie.cfg
+      - ./data/cowrie:/cowrie/var/log
+    ports:
+      - "2222:2222"
+
+  dionaea:
+    image: my_dionaea
+    restart: always
+    volumes:
+      - ./config/dionaea.cfg:/etc/dionaea/dionaea.cfg
+      - ./data/dionaea:/var/log/dionaea
+    ports:
+      - "21:21"
+      - "80:80"
+      - "443:443"
+      - "1433:1433"
+      - "3306:3306"

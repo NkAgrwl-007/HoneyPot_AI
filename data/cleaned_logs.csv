@@ -1,0 +1,21 @@
+eventid,timestamp,src_ip,src_port,session,input,username,password,hour,day,date,event_type,session_id
+cowrie.command.input,2025-04-07 13:21:33.857450+00:00,192.168.1.106,10138,sess_3299,cat /etc/passwd,,,13,Monday,2025-04-07,input,sess_3299
+cowrie.command.input,2025-04-07 13:22:18.857450+00:00,192.168.1.100,57877,sess_3961,uname -a,,,13,Monday,2025-04-07,input,sess_3961
+cowrie.command.input,2025-04-07 13:23:03.857450+00:00,192.168.1.123,31052,sess_6959,cat /etc/passwd,,,13,Monday,2025-04-07,input,sess_6959
+cowrie.command.input,2025-04-07 13:23:48.857450+00:00,192.168.1.169,62574,sess_9318,ls,,,13,Monday,2025-04-07,input,sess_9318
+cowrie.session.connect,2025-04-07 13:24:33.857450+00:00,192.168.1.80,25522,sess_5223,,,,13,Monday,2025-04-07,connect,sess_5223
+cowrie.session.connect,2025-04-07 13:25:18.857450+00:00,192.168.1.48,37466,sess_9452,,,,13,Monday,2025-04-07,connect,sess_9452
+cowrie.login.success,2025-04-07 13:26:03.857450+00:00,192.168.1.109,19554,sess_4207,,test,admin,13,Monday,2025-04-07,success,sess_4207
+cowrie.login.failed,2025-04-07 13:26:48.857450+00:00,192.168.1.184,29338,sess_1480,,test,password,13,Monday,2025-04-07,failed,sess_1480
+cowrie.login.success,2025-04-07 13:27:33.857450+00:00,192.168.1.50,33947,sess_9562,,user,123456,13,Monday,2025-04-07,success,sess_9562
+cowrie.command.input,2025-04-07 13:28:18.857450+00:00,192.168.1.75,33001,sess_8315,ls,,,13,Monday,2025-04-07,input,sess_8315
+cowrie.command.input,2025-04-07 13:29:03.857450+00:00,192.168.1.196,17453,sess_9720,cat /etc/passwd,,,13,Monday,2025-04-07,input,sess_9720
+cowrie.login.success,2025-04-07 13:29:48.857450+00:00,192.168.1.107,25164,sess_6370,,admin,password,13,Monday,2025-04-07,success,sess_6370
+cowrie.session.connect,2025-04-07 13:30:33.857450+00:00,192.168.1.186,25583,sess_7711,,,,13,Monday,2025-04-07,connect,sess_7711
+cowrie.command.input,2025-04-07 13:31:18.857450+00:00,192.168.1.212,27158,sess_5416,uname -a,,,13,Monday,2025-04-07,input,sess_5416
+cowrie.login.success,2025-04-07 13:32:03.857450+00:00,192.168.1.186,16186,sess_2771,,test,123456,13,Monday,2025-04-07,success,sess_2771
+cowrie.login.failed,2025-04-07 13:32:48.857450+00:00,192.168.1.170,14889,sess_7752,,user,password,13,Monday,2025-04-07,failed,sess_7752
+cowrie.session.connect,2025-04-07 13:33:33.857450+00:00,192.168.1.228,10101,sess_3352,,,,13,Monday,2025-04-07,connect,sess_3352
+cowrie.login.success,2025-04-07 13:34:18.857450+00:00,192.168.1.8,42686,sess_2030,,admin,123456,13,Monday,2025-04-07,success,sess_2030
+cowrie.command.input,2025-04-07 13:35:03.857450+00:00,192.168.1.145,16610,sess_5831,ls,,,13,Monday,2025-04-07,input,sess_5831
+cowrie.login.success,2025-04-07 13:35:48.857450+00:00,192.168.1.82,18971,sess_3411,,user,123456,13,Monday,2025-04-07,success,sess_3411

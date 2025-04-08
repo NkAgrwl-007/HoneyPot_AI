@@ -1,0 +1,13 @@
+# Ignore MySQL runtime files
+data/mysql/*.sock
+data/mysql/*.pid
+data/mysql/*.err
+data/mysql/binlog.*
+data/mysql/ib*
+data/mysql/auto.cnf
+data/mysql/undo_*
+data/mysql/relay-log*
+data/mysql/#*
+
+# Optionally ignore all of MySQL's data directory
+data/mysql/
